@@ -2,9 +2,6 @@ package com.example.datastructures.linkedlists;
 
 public class SinglyLinkedList<T> {
 
-    public void append(T i) {
-    }
-
     private static class Node<T> {
         T value;
         Node<T> next;
